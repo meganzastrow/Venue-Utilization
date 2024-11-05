@@ -75,4 +75,4 @@ if st.button("Predict Number of Guests"):
     st.write(f'Predicted number of guests: {int(prediction[0])}')
 
     #Run this code in the terminal
-    #python -m streamlit run venue_utilization_test.py
+    #python -m streamlit run venue_utilization.py
