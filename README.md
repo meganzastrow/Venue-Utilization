@@ -27,12 +27,12 @@ df = pd.read_excel('Venue Utilization.xlsx')
 - **Adjusted Time**: The time range (e.g., `06:00 - 06:59`) during which the guest count was recorded.
 - **Meal**: The meal period (e.g., `Breakfast`, `Lunch`, `Dinner`).
 - **Day of the Month**: The day of the month (e.g., `1` for January 1st).
-- **Concatenate**: A numeric or unique identifier combining date and meal information for reference.
+- **Concatenate**: A numeric identifier concatenating the date for reference.
 - **Actual Date**: The specific date in `MM/DD/YYYY` format.
 - **Day of the Week**: The name of the day (e.g., `Monday`).
 - **# Guests**: The number of guests recorded during that specific time slot.
 - **Table Type**: The type of seating arrangement (e.g., `Cashier`, `Tab`).
-- **Location**: The location or venue of the dining service (e.g., `OLG`).
+- **Location**: The location or venue of the dining service (e.g., `OLG`, `Prom`, `Lola's`).
 
 ### Data Notes:
 - Rows with **'---'** in the "Table Type" column represent **aggregate guest counts** for a specific "Adjusted Time" period or the **total number of guests for the entire day**. These rows should be **excluded** from the model as they do not represent individual guest counts for a specific meal period.
