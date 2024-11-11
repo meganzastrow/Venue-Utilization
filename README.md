@@ -124,7 +124,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
  location_mapping = {
    'OLG': "Oak Leaf Grille",
    'Prom': "Promenade",
-   'Lola's': "Lola's"
+   "Lola's": "Lola's"
   }
 
  # Create a list of location options based on the mapping
