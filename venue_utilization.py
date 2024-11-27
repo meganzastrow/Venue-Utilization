@@ -1,19 +1,9 @@
 # Venue Utilization
 
-import subprocess
-import sys
-
-try:
-    import openpyxl
-except ImportError:
-    # Dynamically install openpyxl if not already installed
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
-    import openpyxl  # Import again after successful installation
-  
 import pandas as pd
 
 # Load the dataset
-df = pd.read_excel('Venue Utilization.xlsx', engine="openpyxl")
+df = pd.read_excel('Venue Utilization.xlsx')
 
 # Load required libraries
 import streamlit as st
