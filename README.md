@@ -43,18 +43,5 @@ df = pd.read_excel('Venue Utilization.xlsx')
   
 The data provides insights into peak times for specific meals and helps identify patterns in guest behavior based on time of day, meal period, and venue location. This dataset is used for predicting guest attendance to optimize staffing decisions.
 
-## Table of Contents
-- [Model & Algorithms](#model--algorithms)
-- [Testing](#testing)
-- [End Product](#end-product)
-
-
-## Model & Algorithms
- 
-   
-## Testing
-
-
-## End Product
 
 
