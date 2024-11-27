@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_excel('Venue Utilization.xlsx')
+df = pd.read_excel('Venue Utilization.xlsx', engine="openpyxl")
 
 # Load required libraries
 import streamlit as st
