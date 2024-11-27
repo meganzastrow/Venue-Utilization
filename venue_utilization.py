@@ -1,6 +1,15 @@
 # Venue Utilization
 
-pip install openpyxl
+import subprocess
+import sys
+
+try:
+    import openpyxl
+except ImportError:
+    # Dynamically install openpyxl if not already installed
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+    import openpyxl  # Import again after successful installation
+  
 import pandas as pd
 
 # Load the dataset
