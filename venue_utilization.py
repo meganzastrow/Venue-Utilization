@@ -7,7 +7,7 @@ try:
     import openpyxl
 except ImportError:
     # Install openpyxl if it's not already installed
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+    subprocess.check_call([sys.executable, "pip", "install", "openpyxl"])
     import openpyxl  # Import again after installation
   
 import pandas as pd
