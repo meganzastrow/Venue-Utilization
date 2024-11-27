@@ -1,7 +1,7 @@
 # Venue Utilization
 
 import pandas as pd
-!pip install openpyxl
+import openpyxl
 
 # Load the dataset
 df = pd.read_excel('Venue Utilization.xlsx')
