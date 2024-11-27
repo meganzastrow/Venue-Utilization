@@ -1,7 +1,6 @@
 # Venue Utilization
 
-import subprocess
-import sys  
+pip install openpyxl
 import pandas as pd
 
 # Load the dataset
