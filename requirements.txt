@@ -2,4 +2,11 @@ streamlit
 pandas
 openpyxl
 altair
-sklearn
+sklearn.preprocessing
+sklearn.ensemble
+numpy
+sklearn.model_selection
+sklearn.metrics
+calendar
+plotly.graph_objects
+plotly.figure_factory
