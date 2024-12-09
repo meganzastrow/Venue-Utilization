@@ -3,4 +3,3 @@ pandas
 openpyxl
 scikit-learn
 plotly
-calendar
