@@ -2,6 +2,6 @@ streamlit
 pandas
 openpyxl
 sklearn.preprocessing
-sklearn.ensemble
+scikit-learn
 sklearn.model_selection
 sklearn.metrics
