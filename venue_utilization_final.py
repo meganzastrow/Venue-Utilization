@@ -7,7 +7,6 @@ df = pd.read_excel('Venue Utilization.xlsx')
 
 # Load required libraries
 import streamlit as st
-import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 import numpy as np
