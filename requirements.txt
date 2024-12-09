@@ -1,7 +1,5 @@
 streamlit
 pandas
 openpyxl
-sklearn.preprocessing
 scikit-learn
-sklearn.model_selection
-sklearn.metrics
+
